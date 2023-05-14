@@ -24,5 +24,17 @@ public class String5 {
         
         String str1="$";
         System.out.println(str1.matches("\\D"));
+
+         /*String str1="abcdef";//ab6cdef,abBcdef
+        System.out.println(str1.matches("[abc]*"));*/
+        
+        
+        /*String str1="accbdefg";//accb
+        System.out.println(str1.matches("[abc]{3,7}"));*/
+        
+        String str2="john@gmail.com";
+        //System.out.println(str1.matches(".*gmail.*"));
+        System.out.println(str2.matches("\\w*@gmail(.*)"));
+
     }
 }
