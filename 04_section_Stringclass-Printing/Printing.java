@@ -17,7 +17,7 @@ public class Printing{
        // System.out.println("SUM "+x+y);
        // System.out.println("SUM "+(x+y));
 
-       // System.out.printf("Hello \n hii");
+       // System.out.printf("Hello \ n hii");
        // System.out.printf("%d %f %c",x,b,c);
 
        // System.out.printf("%1$d %2$d %3$f\n",x,y,b); //---->argument_index
