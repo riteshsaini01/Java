@@ -8,13 +8,14 @@ public class Palindrome {
         System.out.println("Enter the number:");
         num=sc.nextInt();
 
-        //Palindrome
+       /* //Palindrome
+       int n=num;
         int r=1,rev=0;
         while(num>0)
         {
-            r=num%10;
+            r=n%10;
             rev=rev*10+r;
-            num=num/10;
+            n=n/10;
         }
         System.out.println(rev);
         if(rev==num)
@@ -24,6 +25,7 @@ public class Palindrome {
         else{
             System.out.println("Not Palindrome");
         }
+    */
 
       /* //Reverse a Number
         int r=1,rev=0;
@@ -37,7 +39,7 @@ public class Palindrome {
         */
         
         
-          /* //Armstrong Number
+    //Armstrong Number
         int n=num;
         int r=0, sum=0;
         while(n>0)
@@ -49,8 +51,8 @@ public class Palindrome {
             
         } 
         System.out.println(sum);
-        System.out.println(sum==n);
-        if(n==sum)
+        System.out.println(sum==num);
+        if(sum==num)
         {
             System.out.println("Armstrong Number");
         }
@@ -58,7 +60,7 @@ public class Palindrome {
         {
             System.out.println("Not a Armstrong Number");
         }
-      */
+      
         
 
       /* //Count Digits Of Number
