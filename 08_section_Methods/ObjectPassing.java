@@ -23,7 +23,7 @@ public class ObjectPassing {
         change2(x,20);
         System.out.println(x);
 
-        //change(A,2,20);//-------->Passing object as parameter both actual and formal parameters change 
+        //change(A,2,20);//-------->Passing object as parameter both actual and formal parameters change  
         //change1(A,2,20);
 
         //for(int x:A)
