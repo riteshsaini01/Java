@@ -14,7 +14,7 @@ class Outer
     
     public void outerDisplay()
     {
-        
+        Inner i=new Inner();
         i.innerDisplay();
         System.out.println(i.y);
         
@@ -25,8 +25,12 @@ public class Inner_Classes {
 
     public static void main(String[] args) 
     {
-        Outer.Inner oi=new Outer().new Inner();
-        oi.innerDisplay();
+        Outer o=new Outer();
+        o.outerDisplay();
+
+
+       // Outer.Inner oi=new Outer().new Inner();
+       // oi.innerDisplay();
         
     }
     
