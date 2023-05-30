@@ -1,3 +1,4 @@
+//Nested Inner class
 class Outer
 {
     static int x=10;
