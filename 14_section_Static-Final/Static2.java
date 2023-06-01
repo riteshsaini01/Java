@@ -1,31 +1,37 @@
+//Static block
 class Test
 {
-    static int x=10;
-    int y=20;
-    
-    void show()
+    static
     {
-        System.out.println(x+" "+y);
+        System.out.println("Block 1");
     }
     
-    static void display()
+    static
     {
-        System.out.println(x);
+    System.out.println("Block 2");
     }
 }
 
 public class Static2 {
 
-    public static void main(String[] args) {
-        
-        Test t1=new Test();
-        t1.show();
-        t1.x=30;
-        t1.y=50; 
-        
-        Test t2=new Test();
-        t2.show();
-        
+    
+    
+    /*static
+    {
+        System.out.println("Block 1");
+    }*/
+    
+    
+    public static void main(String[] args) 
+    {
+        //Test t=new Test();
+        System.out.println("Main");
+        Test t=new Test();
     }
+    
+    /*static
+    {
+    System.out.println("Block 2");
+    }*/
     
 }
