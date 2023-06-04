@@ -48,6 +48,7 @@ public class MultiThreading //implements Runnable //extends Thread
         while(true)
         {
             System.out.println(i+"World");
+            i++;
         }
         
     }
