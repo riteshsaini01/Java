@@ -1,13 +1,13 @@
-/** @author Abdul Bari
+/** @author Ritesh saini
  *  @version 2.0
  *  @since 2015
  **/
-package javadocdemo;
+
 
 
 /**
  * 
- * @author abdulbari
+ * @author riteshsaini
  * 
  * Class for Library Book
  */

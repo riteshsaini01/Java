@@ -13,7 +13,7 @@ import java.lang.annotation.*;
             }
 
 //@MyAnno(name="Ajay",project="Bank")
-public class Problem1
+public class Builtin_Annotations
 {
     int data;
     //@MyAnno(name="Ajay",project="Bank")
