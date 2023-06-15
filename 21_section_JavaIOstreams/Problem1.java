@@ -6,7 +6,7 @@ public class Problem1 {
     {
         FileInputStream fis=new FileInputStream("Source1.txt");
         FileOutputStream fos=new FileOutputStream("Source2.txt");
-        {
+        
             byte[] b=new byte[fis.available()];
             fis.read(b);
             String str=new String(b);
@@ -16,9 +16,12 @@ public class Problem1 {
             String str1=str.toLowerCase();
             byte[] d=str1.getBytes();
             fos.write(d);
-            }
 
-        }
+            fis.close();
+            fos.close();
+            
+
+     }
 
     }
     
