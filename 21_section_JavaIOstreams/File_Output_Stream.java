@@ -11,6 +11,8 @@ public class File_Output_Stream {
         String str="Learn Java Programming.";
         
         byte b[]=str.getBytes();
+
+      
         
         /*
         //fos.write(str.getBytes());
@@ -31,6 +33,9 @@ public class File_Output_Stream {
         {
             System.out.println(e);
         }*/
+        
     }
+
+  
     
 }
