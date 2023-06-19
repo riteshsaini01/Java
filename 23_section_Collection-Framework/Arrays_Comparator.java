@@ -17,12 +17,14 @@ public class Arrays_Comparator
     public static void main(String[] args) 
     {
         Integer a[]={2,4,6,8,1,3,5,7};
+        Integer b[]={2,4,6,8,1,3,5,7};
+
         
         
-        Arrays.sort(a);
+        Arrays.sort(a, new My());
         
        for(Integer x:a) 
             System.out.println(x);
 
-    }   
+        }   
 }
