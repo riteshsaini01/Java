@@ -1,0 +1,29 @@
+import java.util.LinkedList;
+import java.util.List;
+
+public class Linked_List
+{
+
+    public static void main(String args[])
+    {
+        LinkedList<Integer> ll1=new LinkedList<>();
+        LinkedList<Integer> ll2=new LinkedList<>(List.of(50,60,70,80,90));
+
+        ll1.add(10);
+        ll1.add(0,5);
+        ll1.addAll(1,ll2);
+        ll1.add(5,70);
+
+        ll1.set(6,100);
+
+        ll1.addFirst(3);
+        ll1.addLast(200);
+
+        ll1.forEach(n->show(n));
+
+    }
+    static void show(int n)
+    {
+        System.out.println(n); 
+    }
+}
