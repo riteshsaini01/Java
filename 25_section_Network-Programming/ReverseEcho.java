@@ -36,7 +36,7 @@ public class ReverseEcho extends Thread
             
     public static void main(String[] args) throws Exception
     {
-        ServerSocket ss=new ServerSocket(2000);
+        ServerSocket ss=new ServerSocket(2100);
         int count=1;
         Socket stk;
         ReverseEcho re;
@@ -57,7 +57,7 @@ class Client
 {
     public static void main(String[] args) throws Exception
     {
-        Socket stk=new Socket("192.168.0.103",2000);
+        Socket stk=new Socket("localhost",2100);
         
         BufferedReader keyb=new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br=new BufferedReader(new InputStreamReader(stk.getInputStream()));
@@ -70,7 +70,7 @@ class Client
             msg=keyb.readLine();
             ps.println(msg);
             msg=br.readLine();
-            System.out.println("From Server"+msg);
+            System.out.println("From Server---->"+msg);
             
         }while(!msg.equals("dne"));
         stk.close();

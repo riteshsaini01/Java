@@ -1,6 +1,6 @@
 import java.net.*;
 
-public class DatagramClient 
+public class Datagram 
 {  
     public static void main(String[] args) throws Exception
     {
