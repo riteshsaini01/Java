@@ -12,7 +12,7 @@ public class MultiThreadServer implements Runnable
 
     public static void main(String[] args) throws Exception
     {
-        ServerSocket ss=new ServerSocket(2000);
+        ServerSocket ss=new ServerSocket(2100);
         
         Socket stk;
         do

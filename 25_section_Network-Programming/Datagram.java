@@ -4,7 +4,7 @@ public class Datagram
 {  
     public static void main(String[] args) throws Exception
     {
-        DatagramSocket ds=new DatagramSocket(2001); 
+        DatagramSocket ds=new DatagramSocket(2100); 
         String msg="Hello World";
         DatagramPacket dp=new DatagramPacket(msg.getBytes(),msg.length(),InetAddress.getByName("localhost"),2000);
         
@@ -29,7 +29,7 @@ class Server
 {  
     public static void main(String[] args) throws Exception
     {
-        DatagramSocket ds=new DatagramSocket(2000);
+        DatagramSocket ds=new DatagramSocket(2100);
         
         byte b[]=new byte[1024];
         DatagramPacket dp=new DatagramPacket(b,1024);
