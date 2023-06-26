@@ -6,7 +6,7 @@ public class Datagram
     {
         DatagramSocket ds=new DatagramSocket(2100); 
         String msg="Hello World";
-        DatagramPacket dp=new DatagramPacket(msg.getBytes(),msg.length(),InetAddress.getByName("localhost"),2000);
+        DatagramPacket dp=new DatagramPacket(msg.getBytes(),msg.length(),InetAddress.getByName("localhost"),2100);
         
         ds.send(dp);
         
