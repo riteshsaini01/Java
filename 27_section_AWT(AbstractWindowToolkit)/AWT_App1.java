@@ -3,7 +3,7 @@ import java.awt.*;
 class MyFrame extends Frame
 {
     Label l;
-    TextField tf;
+    Text_Field tf;
     Button b;
     
     public MyFrame()
@@ -13,7 +13,7 @@ class MyFrame extends Frame
         setLayout(new FlowLayout());
         
         l=new Label("Name");
-        tf=new TextField(20);
+        tf=new Text_Field(20);
         b=new Button("OK");
         
         add(l);
