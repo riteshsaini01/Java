@@ -21,9 +21,7 @@ class MyFrame extends Frame
     
     public void paint(Graphics g)
     {
-        g.setColor(Color.RED);
-        g.setFont(new Font("Luminari",Font.BOLD,30));
-        g.drawString("Hello", x, y);
+        g.drawOval(x, y, 50, 50);
     }
     
 }
